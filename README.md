@@ -1,3 +1,6 @@
+# Demo with JavaScript
+* Current date
+
 ## Get current date
 
 ```
