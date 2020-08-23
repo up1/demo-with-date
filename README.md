@@ -7,7 +7,7 @@
 node index.js
 ```
 
-## Run test with Jest
+## Run test with [Jest](https://jestjs.io/en/)
 
 ```
 $npm i
