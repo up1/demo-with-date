@@ -1,0 +1,7 @@
+FROM node:14.8.0-stretch
+ENV TZ=Asia/Bangkok
+WORKDIR /demo
+COPY . .
+RUN chmod a+x /demo/set-time.sh
+ENTRYPOINT ["/demo/set-time.sh"]
+CMD [""]
